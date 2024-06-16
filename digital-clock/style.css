@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding/border are included in element's total width/height */
+}
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vw;
+    width: 100%;
+    height: 100vh;
+    /* box-sizing: border-box; */
+    background-color: wheat;
+    color: darkred;
+}
